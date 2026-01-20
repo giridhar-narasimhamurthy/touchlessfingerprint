@@ -76,3 +76,9 @@ The following open source software/libraries have been used:
 2. **Platform Support:** Currently, the application is only supported on **Android**.
 
 ---
+
+## Download Latest APK
+
+https://github.com/giridhar-narasimhamurthy/touchlessfingerprint/releases/download/v1.0.0/app-release.apk
+
+---

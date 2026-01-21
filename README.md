@@ -30,8 +30,8 @@ To ensure high-quality biometric extraction, please follow these steps:
 1. **Preparation:** Place the finger on or close to a flat surface.
 2. **Initial Positioning:** Hold the smartphone as high as possible above the finger.
 3. **Framing:** Ensure the finger is centered within the box in the camera preview.
-4. **Guidance:** Monitor the message at the top of the preview:
-* Follow instructions to **MOVE LOW** or **MOVE HIGH**.
+4. **Guidance:** Press the **RESTART** button. Monitor the message at the top of the preview:
+* Follow instructions to **MOVE LOW** or **MOVE HIGH**. _Each time_ the camera is moved to a new position - lower or higher - press **RESTART** button to get new guidance
 * Wait until the instruction displays **OPTIMAL** and the box border turns **GREEN**.
 
 

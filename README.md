@@ -15,11 +15,15 @@ Developed by **Brahmi Systems OPC Pvt Ltd**, this application transforms a stand
 | **Distance UI** | Display messages indicating height relative to the finger: MOVE LOW, MOVE HIGH, or OPTIMAL. | Track A |
 | **Quality Control** | Automated post-capture quality checks with immediate PASS or FAIL feedback. | Track A |
 | **Finger Segmentation** | Advanced processing to isolate the finger from the background for analysis. | Track A |
-| **Ridge Detection** | Enhances and detects the ridge and valley patterns within the fingerprint. | Track B |
-| **Minutiae Extraction** | Intelligent detection and mapping of fingerprint minutiae points. | Track B |
 | **Multi-Capture** | Support for capturing several different finger images sequentially, one at a time. | Track A |
+| **Minutiae Extraction** | Intelligent detection and mapping of fingerprint minutiae points. | Track B |
 | **Enhanced Image Export** | Saves processed finger images with ridge-valley detail for further analysis. | Track B |
 | **CSV Data Export** | Exports extracted minutiae coordinates and types into a structured CSV file. | Track B |
+| **Ridge Detection** | Enhances and detects the ridge and valley patterns within the fingerprint using classical method. | Track B |
+| **Finger Region Isolation**| Isolates the finger from the background in the captured image. | Track B |
+| **Noise Reduction/Contrast Normalization**| CLAHE, Blue channel extraction, median blur, binarization | Track B |
+| **Output an enhanced image**| Grayscale finger image, fingerprint image are output | Track B |
+| **Ouput in ISO Resolution & Format**| FIR format file containing image in 500 DPI is generated | Track B |
 
 ---
 
@@ -47,6 +51,13 @@ Captured images and CSV files can be found in the following directory:
 
 `Internal storage\Android\data\com.example.touchlessfingerprint\files\Fingerprints\FingerprintDemo`
 
+The files generated are:
+1. CSV file: contains X, Y co-ordinates of the minutiae points in the fingerprint, geometric structure of the ridge at that point (Ending/Bifurcation)
+2. FIR file: contains fingerprint image metadata as per ISO/IEC 19794-4:2005 and also the image itself in 500 DPI/PPI resolution
+3. Fingerprint image: a file with the name 'fingerprint_xxxxxx.png' is generated that contains the image of the finger rendered such that ridges are in black color and rest is white
+4. Grayscale image: a file with the name 'gray_fingerprint_xxxxxx.png' is generated with all colors removed highlighting the ridges
+5. RGB image:  a file with the name 'rgb_fingerprint_xxxxxx.png' is generated and it is the original image captured
+6. FIR file image: a file with the name 'fingerprint_xxxxxx.fir_fixed' contains the image that is stored in the FIR file
 ---
 
 ### Quality Metrics

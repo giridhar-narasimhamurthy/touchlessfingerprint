@@ -52,12 +52,12 @@ Captured images and CSV files can be found in the following directory:
 `Internal storage\Android\data\com.example.touchlessfingerprint\files\Fingerprints\FingerprintDemo`
 
 The files generated are:
-1. CSV file: contains X, Y co-ordinates of the minutiae points in the fingerprint, geometric structure of the ridge at that point (Ending/Bifurcation)
-2. FIR file: contains fingerprint image metadata as per ISO/IEC 19794-4:2005 and also the image itself in 500 DPI/PPI resolution
-3. Fingerprint image: a file with the name 'fingerprint_xxxxxx.png' is generated that contains the image of the finger rendered such that ridges are in black color and rest is white
-4. Grayscale image: a file with the name 'gray_fingerprint_xxxxxx.png' is generated with all colors removed highlighting the ridges
-5. RGB image:  a file with the name 'rgb_fingerprint_xxxxxx.png' is generated and it is the original image captured
-6. FIR file image: a file with the name 'fingerprint_xxxxxx.fir_fixed' contains the image that is stored in the FIR file
+1. **CSV file**: contains X, Y co-ordinates of the minutiae points in the fingerprint, geometric structure of the ridge at that point (Ending/Bifurcation)
+2. **FIR file**: contains fingerprint image metadata as per ISO/IEC 19794-4:2005 and also the image itself in 500 DPI/PPI resolution
+3. **Fingerprint image**: a file with the name 'fingerprint_xxxxxx.png' is generated that contains the image of the finger rendered such that ridges are in black color and rest is white
+4. **Grayscale image**: a file with the name 'gray_fingerprint_xxxxxx.png' is generated with all colors removed highlighting the ridges
+5. **RGB image**:  a file with the name 'rgb_fingerprint_xxxxxx.png' is generated and it is the original image captured
+6. **FIR file image**: a file with the name 'fingerprint_xxxxxx.fir_fixed' contains the image that is stored in the FIR file
 ---
 
 ### Quality Metrics

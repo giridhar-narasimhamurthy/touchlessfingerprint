@@ -90,6 +90,9 @@ The following open source software/libraries have been used:
 
 ## Download Latest APK
 
+https://github.com/giridhar-narasimhamurthy/touchlessfingerprint/releases/download/v2.0.0/app-release.apk
+
+## Older APKs
 https://github.com/giridhar-narasimhamurthy/touchlessfingerprint/releases/download/v1.0.0/app-release.apk
 
 ---
